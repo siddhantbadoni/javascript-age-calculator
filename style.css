@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    /* background: linear-gradient(#457b9d, #05030a); */
+    display: flex;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-heading {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 32px;
+    justify-content: center;
+    font-family: 'Nosifer', sans-serif;
+    background: linear-gradient(#b4fe00, #be4d06);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    
+    
+}
+
+.task-container {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 39px 48px;
+    border-radius: 46px;
+    font-family: 'Chakra Petch', sans-serif;
+    /* background-image: linear-gradient(to bottom, #9c8282, #297753); */
+}
+
+.input-container {
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    width: 38%;
+    justify-content: center;
+    /* border: 1px solid black; */
+    border-radius: 29px;
+    /* box-shadow: 0px 0px 17px 0px rgb(28 2 16 / 50%); */
+    background: linear-gradient(#e8de1e, #9d4545ed);
+    margin: 19px 1px;
+}
+
+
+label {
+    font-size: 28px;
+}
+
+input {
+    padding: 11px 49px;
+    margin: 17px;
+    border-radius: 29px;
+    background: linear-gradient(#e8cf1e, #9d4545f0);
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 17px 0px rgb(28 2 16 / 50%);
+    
+}
+
+/* .input-container input::webkit-calendar-picker-indicator{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  position:absolute;
+  background-position: calc(100% - 10px);
+  background-size: 30px;
+  cursor: pointer;
+} */
+
+button {
+    padding: 10px 37px;
+    margin: 22px;
+    cursor: pointer;
+    border-radius: 42px;
+    background: linear-gradient(#e8de1ebf, #9d6745);
+    border: none;
+    
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+button:hover  {
+    box-shadow: 0px 0px 17px 0px rgb(28 2 16 / 50%);
+    background: linear-gradient(#fff200, #f15d00);
+}
+
+.calc-heading p {
+    font-size: 39px;
+}
+
+.task-container p {
+    font-size: 25px;
+}
+
+.till-date {
+    padding: 1px 31px;
+}
+
+span {
+font-weight: 600;
+color: #c46a0d;
+}
